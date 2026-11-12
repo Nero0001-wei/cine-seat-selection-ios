@@ -1,0 +1,3116 @@
+{
+  "formatVersion": 1,
+  "title": "CINÉ · 当前连续排座与阶梯影厅",
+  "source": "iOSDemo/CinemaDemo/Models/CinemaModel.swift",
+  "sourceSha256": "aa122fd77a788536710ae44ae93810a7e600c24061bddf82e911ba3fe8f41f14",
+  "unit": "m",
+  "coordinateSystem": {
+    "x": "向右",
+    "y": "向上",
+    "z": "向影厅后部；银幕位于负z方向"
+  },
+  "precision": "导出坐标四舍五入至6位小数；运行时使用Swift Float。",
+  "constants": {
+    "rowCount": 12,
+    "columnCount": 14,
+    "columnPitch": 0.74,
+    "rowPitch": 1.05,
+    "rowRise": 0.3,
+    "firstRowZ": -6.4,
+    "crossAisleWidth": 1.45,
+    "floorWidth": 13.2,
+    "sideAisleX": 5.95,
+    "roomFrontZ": -10.5,
+    "overviewSpan": 17.2,
+    "overviewCenterZ": -1.35,
+    "screenWidth": 12,
+    "filmDepthOffset": 0.025,
+    "frameDepthOffset": -0.035,
+    "seatedEyeBaseHeight": 1.45,
+    "seatedEyeForwardOffset": 0.045,
+    "seatBackrestHeight": 1.11,
+    "seatBackrestTopZOffset": 0.26,
+    "sightlineClearance": 0.05
+  },
+  "seatCount": 168,
+  "soldCount": 33,
+  "availableCount": 135,
+  "soldIDs": [
+    "A04",
+    "A10",
+    "B02",
+    "B11",
+    "C03",
+    "C12",
+    "D06",
+    "D07",
+    "D13",
+    "E02",
+    "E05",
+    "E11",
+    "F04",
+    "F06",
+    "F07",
+    "F10",
+    "F13",
+    "G05",
+    "G11",
+    "H02",
+    "H06",
+    "H07",
+    "H12",
+    "I04",
+    "I09",
+    "J03",
+    "J07",
+    "J08",
+    "J12",
+    "K05",
+    "K10",
+    "L03",
+    "L09"
+  ],
+  "sections": [
+    {
+      "id": "front",
+      "label": "前区",
+      "rows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "middle",
+      "label": "中区",
+      "rows": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "rear",
+      "label": "后区",
+      "rows": [
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "crossAisles": [
+    {
+      "afterRow": 4,
+      "width": 1.45,
+      "startZ": -2.725,
+      "endZ": -1.275,
+      "centerZ": -2.0,
+      "elevation": 0.9
+    },
+    {
+      "afterRow": 8,
+      "width": 1.45,
+      "startZ": 2.925,
+      "endZ": 4.375,
+      "centerZ": 3.65,
+      "elevation": 2.1
+    }
+  ],
+  "rowZFormula": "firstRowZ + (row - 1) * rowPitch + precedingCrossAisleCount * crossAisleWidth",
+  "rowElevationFormula": "(row - 1) * rowRise",
+  "columnXFormula": "(column - (columnCount + 1) / 2) * columnPitch",
+  "rows": [
+    {
+      "row": 1,
+      "letter": "A",
+      "section": "front",
+      "z": -6.4,
+      "elevation": 0.0,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 2,
+      "letter": "B",
+      "section": "front",
+      "z": -5.35,
+      "elevation": 0.3,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 3,
+      "letter": "C",
+      "section": "front",
+      "z": -4.3,
+      "elevation": 0.6,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 4,
+      "letter": "D",
+      "section": "front",
+      "z": -3.25,
+      "elevation": 0.9,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 5,
+      "letter": "E",
+      "section": "middle",
+      "z": -0.75,
+      "elevation": 1.2,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 6,
+      "letter": "F",
+      "section": "middle",
+      "z": 0.3,
+      "elevation": 1.5,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 7,
+      "letter": "G",
+      "section": "middle",
+      "z": 1.35,
+      "elevation": 1.8,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 8,
+      "letter": "H",
+      "section": "middle",
+      "z": 2.4,
+      "elevation": 2.1,
+      "seatedEyeHeightAboveRow": 1.45
+    },
+    {
+      "row": 9,
+      "letter": "I",
+      "section": "rear",
+      "z": 4.9,
+      "elevation": 2.4,
+      "seatedEyeHeightAboveRow": 1.641787
+    },
+    {
+      "row": 10,
+      "letter": "J",
+      "section": "rear",
+      "z": 5.95,
+      "elevation": 2.7,
+      "seatedEyeHeightAboveRow": 1.604027
+    },
+    {
+      "row": 11,
+      "letter": "K",
+      "section": "rear",
+      "z": 7.0,
+      "elevation": 3.0,
+      "seatedEyeHeightAboveRow": 1.566267
+    },
+    {
+      "row": 12,
+      "letter": "L",
+      "section": "rear",
+      "z": 8.05,
+      "elevation": 3.3,
+      "seatedEyeHeightAboveRow": 1.528507
+    }
+  ],
+  "seats": [
+    {
+      "id": "A01",
+      "row": 1,
+      "column": 1,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.81,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A02",
+      "row": 1,
+      "column": 2,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.07,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A03",
+      "row": 1,
+      "column": 3,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -3.33,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A04",
+      "row": 1,
+      "column": 4,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        -2.59,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A05",
+      "row": 1,
+      "column": 5,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.85,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A06",
+      "row": 1,
+      "column": 6,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.11,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A07",
+      "row": 1,
+      "column": 7,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -0.37,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A08",
+      "row": 1,
+      "column": 8,
+      "section": "front",
+      "status": "available",
+      "position": [
+        0.37,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        0.37,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A09",
+      "row": 1,
+      "column": 9,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.11,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        1.11,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A10",
+      "row": 1,
+      "column": 10,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        1.85,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        1.85,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A11",
+      "row": 1,
+      "column": 11,
+      "section": "front",
+      "status": "available",
+      "position": [
+        2.59,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        2.59,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A12",
+      "row": 1,
+      "column": 12,
+      "section": "front",
+      "status": "available",
+      "position": [
+        3.33,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        3.33,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A13",
+      "row": 1,
+      "column": 13,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.07,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        4.07,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "A14",
+      "row": 1,
+      "column": 14,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.81,
+        0.0,
+        -6.4
+      ],
+      "seatedEyePosition": [
+        4.81,
+        1.45,
+        -6.355
+      ]
+    },
+    {
+      "id": "B01",
+      "row": 2,
+      "column": 1,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.81,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B02",
+      "row": 2,
+      "column": 2,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        -4.07,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B03",
+      "row": 2,
+      "column": 3,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -3.33,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B04",
+      "row": 2,
+      "column": 4,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -2.59,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B05",
+      "row": 2,
+      "column": 5,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.85,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B06",
+      "row": 2,
+      "column": 6,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.11,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B07",
+      "row": 2,
+      "column": 7,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -0.37,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B08",
+      "row": 2,
+      "column": 8,
+      "section": "front",
+      "status": "available",
+      "position": [
+        0.37,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        0.37,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B09",
+      "row": 2,
+      "column": 9,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.11,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        1.11,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B10",
+      "row": 2,
+      "column": 10,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.85,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        1.85,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B11",
+      "row": 2,
+      "column": 11,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        2.59,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        2.59,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B12",
+      "row": 2,
+      "column": 12,
+      "section": "front",
+      "status": "available",
+      "position": [
+        3.33,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        3.33,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B13",
+      "row": 2,
+      "column": 13,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.07,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        4.07,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "B14",
+      "row": 2,
+      "column": 14,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.81,
+        0.3,
+        -5.35
+      ],
+      "seatedEyePosition": [
+        4.81,
+        1.75,
+        -5.305
+      ]
+    },
+    {
+      "id": "C01",
+      "row": 3,
+      "column": 1,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.81,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C02",
+      "row": 3,
+      "column": 2,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.07,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C03",
+      "row": 3,
+      "column": 3,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        -3.33,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C04",
+      "row": 3,
+      "column": 4,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -2.59,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C05",
+      "row": 3,
+      "column": 5,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.85,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C06",
+      "row": 3,
+      "column": 6,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.11,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C07",
+      "row": 3,
+      "column": 7,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -0.37,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C08",
+      "row": 3,
+      "column": 8,
+      "section": "front",
+      "status": "available",
+      "position": [
+        0.37,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        0.37,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C09",
+      "row": 3,
+      "column": 9,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.11,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        1.11,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C10",
+      "row": 3,
+      "column": 10,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.85,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        1.85,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C11",
+      "row": 3,
+      "column": 11,
+      "section": "front",
+      "status": "available",
+      "position": [
+        2.59,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        2.59,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C12",
+      "row": 3,
+      "column": 12,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        3.33,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        3.33,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C13",
+      "row": 3,
+      "column": 13,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.07,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        4.07,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "C14",
+      "row": 3,
+      "column": 14,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.81,
+        0.6,
+        -4.3
+      ],
+      "seatedEyePosition": [
+        4.81,
+        2.05,
+        -4.255
+      ]
+    },
+    {
+      "id": "D01",
+      "row": 4,
+      "column": 1,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.81,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D02",
+      "row": 4,
+      "column": 2,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -4.07,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D03",
+      "row": 4,
+      "column": 3,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -3.33,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D04",
+      "row": 4,
+      "column": 4,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -2.59,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D05",
+      "row": 4,
+      "column": 5,
+      "section": "front",
+      "status": "available",
+      "position": [
+        -1.85,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D06",
+      "row": 4,
+      "column": 6,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        -1.11,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D07",
+      "row": 4,
+      "column": 7,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        -0.37,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D08",
+      "row": 4,
+      "column": 8,
+      "section": "front",
+      "status": "available",
+      "position": [
+        0.37,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        0.37,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D09",
+      "row": 4,
+      "column": 9,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.11,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        1.11,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D10",
+      "row": 4,
+      "column": 10,
+      "section": "front",
+      "status": "available",
+      "position": [
+        1.85,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        1.85,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D11",
+      "row": 4,
+      "column": 11,
+      "section": "front",
+      "status": "available",
+      "position": [
+        2.59,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        2.59,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D12",
+      "row": 4,
+      "column": 12,
+      "section": "front",
+      "status": "available",
+      "position": [
+        3.33,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        3.33,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D13",
+      "row": 4,
+      "column": 13,
+      "section": "front",
+      "status": "sold",
+      "position": [
+        4.07,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        4.07,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "D14",
+      "row": 4,
+      "column": 14,
+      "section": "front",
+      "status": "available",
+      "position": [
+        4.81,
+        0.9,
+        -3.25
+      ],
+      "seatedEyePosition": [
+        4.81,
+        2.35,
+        -3.205
+      ]
+    },
+    {
+      "id": "E01",
+      "row": 5,
+      "column": 1,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.81,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E02",
+      "row": 5,
+      "column": 2,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -4.07,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E03",
+      "row": 5,
+      "column": 3,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -3.33,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E04",
+      "row": 5,
+      "column": 4,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -2.59,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E05",
+      "row": 5,
+      "column": 5,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -1.85,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E06",
+      "row": 5,
+      "column": 6,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -1.11,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E07",
+      "row": 5,
+      "column": 7,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -0.37,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E08",
+      "row": 5,
+      "column": 8,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        0.37,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        0.37,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E09",
+      "row": 5,
+      "column": 9,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.11,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        1.11,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E10",
+      "row": 5,
+      "column": 10,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.85,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        1.85,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E11",
+      "row": 5,
+      "column": 11,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        2.59,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        2.59,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E12",
+      "row": 5,
+      "column": 12,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        3.33,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        3.33,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E13",
+      "row": 5,
+      "column": 13,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.07,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        4.07,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "E14",
+      "row": 5,
+      "column": 14,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.81,
+        1.2,
+        -0.75
+      ],
+      "seatedEyePosition": [
+        4.81,
+        2.65,
+        -0.705
+      ]
+    },
+    {
+      "id": "F01",
+      "row": 6,
+      "column": 1,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.81,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F02",
+      "row": 6,
+      "column": 2,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.07,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F03",
+      "row": 6,
+      "column": 3,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -3.33,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F04",
+      "row": 6,
+      "column": 4,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -2.59,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F05",
+      "row": 6,
+      "column": 5,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -1.85,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F06",
+      "row": 6,
+      "column": 6,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -1.11,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F07",
+      "row": 6,
+      "column": 7,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -0.37,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F08",
+      "row": 6,
+      "column": 8,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        0.37,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        0.37,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F09",
+      "row": 6,
+      "column": 9,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.11,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        1.11,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F10",
+      "row": 6,
+      "column": 10,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        1.85,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        1.85,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F11",
+      "row": 6,
+      "column": 11,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        2.59,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        2.59,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F12",
+      "row": 6,
+      "column": 12,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        3.33,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        3.33,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F13",
+      "row": 6,
+      "column": 13,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        4.07,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        4.07,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "F14",
+      "row": 6,
+      "column": 14,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.81,
+        1.5,
+        0.3
+      ],
+      "seatedEyePosition": [
+        4.81,
+        2.95,
+        0.345
+      ]
+    },
+    {
+      "id": "G01",
+      "row": 7,
+      "column": 1,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.81,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G02",
+      "row": 7,
+      "column": 2,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.07,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G03",
+      "row": 7,
+      "column": 3,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -3.33,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G04",
+      "row": 7,
+      "column": 4,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -2.59,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G05",
+      "row": 7,
+      "column": 5,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -1.85,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G06",
+      "row": 7,
+      "column": 6,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -1.11,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G07",
+      "row": 7,
+      "column": 7,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -0.37,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G08",
+      "row": 7,
+      "column": 8,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        0.37,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        0.37,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G09",
+      "row": 7,
+      "column": 9,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.11,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        1.11,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G10",
+      "row": 7,
+      "column": 10,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.85,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        1.85,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G11",
+      "row": 7,
+      "column": 11,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        2.59,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        2.59,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G12",
+      "row": 7,
+      "column": 12,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        3.33,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        3.33,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G13",
+      "row": 7,
+      "column": 13,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.07,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        4.07,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "G14",
+      "row": 7,
+      "column": 14,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.81,
+        1.8,
+        1.35
+      ],
+      "seatedEyePosition": [
+        4.81,
+        3.25,
+        1.395
+      ]
+    },
+    {
+      "id": "H01",
+      "row": 8,
+      "column": 1,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -4.81,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H02",
+      "row": 8,
+      "column": 2,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -4.07,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H03",
+      "row": 8,
+      "column": 3,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -3.33,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H04",
+      "row": 8,
+      "column": 4,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -2.59,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H05",
+      "row": 8,
+      "column": 5,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        -1.85,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H06",
+      "row": 8,
+      "column": 6,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -1.11,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H07",
+      "row": 8,
+      "column": 7,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        -0.37,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H08",
+      "row": 8,
+      "column": 8,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        0.37,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        0.37,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H09",
+      "row": 8,
+      "column": 9,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.11,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        1.11,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H10",
+      "row": 8,
+      "column": 10,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        1.85,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        1.85,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H11",
+      "row": 8,
+      "column": 11,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        2.59,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        2.59,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H12",
+      "row": 8,
+      "column": 12,
+      "section": "middle",
+      "status": "sold",
+      "position": [
+        3.33,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        3.33,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H13",
+      "row": 8,
+      "column": 13,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.07,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        4.07,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "H14",
+      "row": 8,
+      "column": 14,
+      "section": "middle",
+      "status": "available",
+      "position": [
+        4.81,
+        2.1,
+        2.4
+      ],
+      "seatedEyePosition": [
+        4.81,
+        3.55,
+        2.445
+      ]
+    },
+    {
+      "id": "I01",
+      "row": 9,
+      "column": 1,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.81,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I02",
+      "row": 9,
+      "column": 2,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.07,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I03",
+      "row": 9,
+      "column": 3,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -3.33,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I04",
+      "row": 9,
+      "column": 4,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        -2.59,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I05",
+      "row": 9,
+      "column": 5,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.85,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I06",
+      "row": 9,
+      "column": 6,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.11,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I07",
+      "row": 9,
+      "column": 7,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -0.37,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I08",
+      "row": 9,
+      "column": 8,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        0.37,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        0.37,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I09",
+      "row": 9,
+      "column": 9,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        1.11,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        1.11,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I10",
+      "row": 9,
+      "column": 10,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        1.85,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        1.85,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I11",
+      "row": 9,
+      "column": 11,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        2.59,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        2.59,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I12",
+      "row": 9,
+      "column": 12,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        3.33,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        3.33,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I13",
+      "row": 9,
+      "column": 13,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.07,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        4.07,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "I14",
+      "row": 9,
+      "column": 14,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.81,
+        2.4,
+        4.9
+      ],
+      "seatedEyePosition": [
+        4.81,
+        4.041787,
+        4.945
+      ]
+    },
+    {
+      "id": "J01",
+      "row": 10,
+      "column": 1,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.81,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J02",
+      "row": 10,
+      "column": 2,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.07,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J03",
+      "row": 10,
+      "column": 3,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        -3.33,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J04",
+      "row": 10,
+      "column": 4,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -2.59,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J05",
+      "row": 10,
+      "column": 5,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.85,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J06",
+      "row": 10,
+      "column": 6,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.11,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J07",
+      "row": 10,
+      "column": 7,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        -0.37,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J08",
+      "row": 10,
+      "column": 8,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        0.37,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        0.37,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J09",
+      "row": 10,
+      "column": 9,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        1.11,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        1.11,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J10",
+      "row": 10,
+      "column": 10,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        1.85,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        1.85,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J11",
+      "row": 10,
+      "column": 11,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        2.59,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        2.59,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J12",
+      "row": 10,
+      "column": 12,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        3.33,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        3.33,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J13",
+      "row": 10,
+      "column": 13,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.07,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        4.07,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "J14",
+      "row": 10,
+      "column": 14,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.81,
+        2.7,
+        5.95
+      ],
+      "seatedEyePosition": [
+        4.81,
+        4.304027,
+        5.995
+      ]
+    },
+    {
+      "id": "K01",
+      "row": 11,
+      "column": 1,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.81,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K02",
+      "row": 11,
+      "column": 2,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.07,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K03",
+      "row": 11,
+      "column": 3,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -3.33,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K04",
+      "row": 11,
+      "column": 4,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -2.59,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K05",
+      "row": 11,
+      "column": 5,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        -1.85,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K06",
+      "row": 11,
+      "column": 6,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.11,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K07",
+      "row": 11,
+      "column": 7,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -0.37,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K08",
+      "row": 11,
+      "column": 8,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        0.37,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        0.37,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K09",
+      "row": 11,
+      "column": 9,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        1.11,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        1.11,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K10",
+      "row": 11,
+      "column": 10,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        1.85,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        1.85,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K11",
+      "row": 11,
+      "column": 11,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        2.59,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        2.59,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K12",
+      "row": 11,
+      "column": 12,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        3.33,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        3.33,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K13",
+      "row": 11,
+      "column": 13,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.07,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        4.07,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "K14",
+      "row": 11,
+      "column": 14,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.81,
+        3.0,
+        7.0
+      ],
+      "seatedEyePosition": [
+        4.81,
+        4.566267,
+        7.045
+      ]
+    },
+    {
+      "id": "L01",
+      "row": 12,
+      "column": 1,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.81,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -4.81,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L02",
+      "row": 12,
+      "column": 2,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -4.07,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -4.07,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L03",
+      "row": 12,
+      "column": 3,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        -3.33,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -3.33,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L04",
+      "row": 12,
+      "column": 4,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -2.59,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -2.59,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L05",
+      "row": 12,
+      "column": 5,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.85,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -1.85,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L06",
+      "row": 12,
+      "column": 6,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -1.11,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -1.11,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L07",
+      "row": 12,
+      "column": 7,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        -0.37,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        -0.37,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L08",
+      "row": 12,
+      "column": 8,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        0.37,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        0.37,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L09",
+      "row": 12,
+      "column": 9,
+      "section": "rear",
+      "status": "sold",
+      "position": [
+        1.11,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        1.11,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L10",
+      "row": 12,
+      "column": 10,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        1.85,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        1.85,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L11",
+      "row": 12,
+      "column": 11,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        2.59,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        2.59,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L12",
+      "row": 12,
+      "column": 12,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        3.33,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        3.33,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L13",
+      "row": 12,
+      "column": 13,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.07,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        4.07,
+        4.828507,
+        8.095
+      ]
+    },
+    {
+      "id": "L14",
+      "row": 12,
+      "column": 14,
+      "section": "rear",
+      "status": "available",
+      "position": [
+        4.81,
+        3.3,
+        8.05
+      ],
+      "seatedEyePosition": [
+        4.81,
+        4.828507,
+        8.095
+      ]
+    }
+  ],
+  "presets": {
+    "center": "G08",
+    "side": "G03",
+    "front": "C08",
+    "rear": "K08"
+  },
+  "room": {
+    "frontZ": -10.5,
+    "backZ": 10.25,
+    "depth": 20.75,
+    "centerZ": -0.125,
+    "floorWidth": 13.2,
+    "sideAisleX": 5.95
+  },
+  "screen": {
+    "filmWidth": 12,
+    "filmHeight": 6.75,
+    "frameWidth": 12.24,
+    "frameHeight": 6.99,
+    "radius": 32.666667,
+    "centerPosition": [
+      0.0,
+      3.89,
+      -10.2
+    ],
+    "conservativeBottomSightlineTarget": [
+      0.0,
+      0.395,
+      -9.656598
+    ],
+    "filmDepthOffset": 0.025,
+    "frameDepthOffset": -0.035
+  },
+  "note": "库存与座位价格均为本机演示数据；本JSON不含影片、贴图或用户数据。"
+}

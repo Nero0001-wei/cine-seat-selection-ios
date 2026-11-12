@@ -1,0 +1,615 @@
+{
+  "formatVersion": 1,
+  "title": "CINÉ · 当前暗色 iOS 界面规格",
+  "canvas": {
+    "width": 402,
+    "height": 874,
+    "unit": "pt",
+    "coordinates": "屏幕左上角为原点；x向右，y向下。"
+  },
+  "sourceFiles": [
+    "iOSDemo/CinemaDemo/Views/CinemaRootView.swift",
+    "iOSDemo/CinemaDemo/Views/GlassControls.swift",
+    "iOSDemo/CinemaDemo/Models/CinemaModel.swift",
+    "iOSDemo/CinemaDemo/Scene/CinemaScreenPlayback.swift"
+  ],
+  "notes": [
+    "控件边界是402×874pt参考尺寸的实测值，部分数值取近似；不同iPhone尺寸会由SwiftUI重新布局。",
+    "系统玻璃效果由iOS运行时绘制，静态设计稿只能近似表达。",
+    "本文件描述10个主要参考状态；实时3D、视频播放、座位库存与其他状态以App源码为准。"
+  ],
+  "theme": {
+    "background": "#1B1C21",
+    "panel": "#25262D",
+    "panelBackingOpacity": 0.28,
+    "panelMaterial": "regular glass",
+    "panelRadius": 30,
+    "panelStroke": {
+      "color": "#FFFFFF",
+      "opacity": 0.1,
+      "width": 0.5
+    },
+    "actionGold": "#F4C85A",
+    "selectedSeat": "#FFC800",
+    "availableSeat": "#AAABB7",
+    "soldSeatApprox": "#4A4D54",
+    "primaryRadius": 18,
+    "primaryFont": "SF callout medium (native)",
+    "primaryHeightApprox": 54,
+    "dockInsetHorizontal": 16,
+    "dockPadding": 16,
+    "dockBottom": 831,
+    "dockContentAnimation": {
+      "type": "spring",
+      "duration": 0.42,
+      "bounce": 0.02,
+      "anchor": "bottom",
+      "reduceMotion": "none"
+    }
+  },
+  "sharedControls": {
+    "backButton": [
+      16,
+      62,
+      44,
+      44
+    ],
+    "overviewMenu": [
+      342,
+      62,
+      44,
+      44
+    ],
+    "previewLighting": [
+      218,
+      61,
+      168,
+      48
+    ],
+    "lightingOptions": [
+      "开灯",
+      "放映中"
+    ],
+    "zoneOptions": [
+      "前排",
+      "中区",
+      "后排",
+      "侧边"
+    ]
+  },
+  "states": [
+    {
+      "name": "01-overview",
+      "state": "emptyOverview",
+      "panelBounds": [
+        16,
+        658,
+        370,
+        173
+      ],
+      "texts": [
+        "星际穿越 · 19:30 · IMAX 2D",
+        "先坐进去看看",
+        "选一个座位，预览你的观影视角",
+        "试坐推荐位置",
+        "点击座位选择 · 拖动平移 · 双指缩放",
+        "可选",
+        "已售",
+        "已选"
+      ],
+      "controlBounds": {
+        "recommend": [
+          32,
+          763,
+          338,
+          53
+        ]
+      },
+      "additionalBounds": {
+        "hint": [
+          113,
+          600,
+          190,
+          13
+        ],
+        "legend": [
+          121,
+          629,
+          160,
+          15
+        ]
+      }
+    },
+    {
+      "name": "02b-single-selected",
+      "state": "singleSelection",
+      "panelBounds": [
+        16,
+        580,
+        370,
+        251
+      ],
+      "texts": [
+        "星际穿越 · 19:30 · IMAX 2D",
+        "G08",
+        "¥68",
+        "7排8座",
+        "查看观影视角",
+        "加选7排9座",
+        "清空"
+      ],
+      "controlBounds": {
+        "preview": [
+          32,
+          694,
+          264,
+          53
+        ],
+        "confirm": [
+          308,
+          694,
+          62,
+          54
+        ],
+        "companion": [
+          32,
+          762,
+          252,
+          54
+        ],
+        "clear": [
+          295,
+          762,
+          75,
+          54
+        ]
+      },
+      "additionalBounds": {}
+    },
+    {
+      "name": "02-side-view",
+      "state": "sidePreview",
+      "panelBounds": [
+        16,
+        625,
+        370,
+        206
+      ],
+      "texts": [
+        "7排3座",
+        "3D 影厅结构",
+        "¥68",
+        "中区 · 靠近侧边梯道",
+        "前排",
+        "中区",
+        "后排",
+        "侧边",
+        "选这个位置"
+      ],
+      "controlBounds": {
+        "structure": [
+          232,
+          648,
+          92,
+          30
+        ],
+        "zones": [
+          32,
+          716,
+          338,
+          32
+        ],
+        "choose": [
+          32,
+          761,
+          262,
+          53
+        ],
+        "compare": [
+          308,
+          761,
+          62,
+          54
+        ]
+      },
+      "additionalBounds": {}
+    },
+    {
+      "name": "03-front-view",
+      "state": "frontPreview",
+      "panelBounds": [
+        16,
+        625,
+        370,
+        206
+      ],
+      "texts": [
+        "3排8座",
+        "3D 影厅结构",
+        "¥68",
+        "前区 · 更靠近银幕",
+        "前排",
+        "中区",
+        "后排",
+        "侧边",
+        "选这个位置"
+      ],
+      "controlBounds": {
+        "structure": [
+          232,
+          648,
+          92,
+          30
+        ],
+        "zones": [
+          32,
+          716,
+          338,
+          32
+        ],
+        "choose": [
+          32,
+          761,
+          262,
+          53
+        ],
+        "compare": [
+          308,
+          761,
+          62,
+          54
+        ]
+      },
+      "additionalBounds": {}
+    },
+    {
+      "name": "03b-center-lights-on",
+      "state": "centerPreview",
+      "panelBounds": [
+        16,
+        625,
+        370,
+        206
+      ],
+      "texts": [
+        "7排8座",
+        "3D 影厅结构",
+        "¥68",
+        "中区 · 靠近银幕中轴",
+        "前排",
+        "中区",
+        "后排",
+        "侧边",
+        "选这个位置"
+      ],
+      "controlBounds": {
+        "structure": [
+          232,
+          648,
+          92,
+          30
+        ],
+        "zones": [
+          32,
+          716,
+          338,
+          32
+        ],
+        "choose": [
+          32,
+          761,
+          262,
+          53
+        ],
+        "compare": [
+          308,
+          761,
+          62,
+          54
+        ]
+      },
+      "additionalBounds": {
+        "videoScreenApprox": [
+          39,
+          344,
+          333,
+          189
+        ]
+      }
+    },
+    {
+      "name": "03c-rear-view",
+      "state": "rearPreview",
+      "panelBounds": [
+        16,
+        625,
+        370,
+        206
+      ],
+      "texts": [
+        "11排8座",
+        "3D 影厅结构",
+        "¥68",
+        "后区 · 视点更高，纵览银幕",
+        "前排",
+        "中区",
+        "后排",
+        "侧边",
+        "选这个位置"
+      ],
+      "controlBounds": {
+        "structure": [
+          232,
+          648,
+          92,
+          30
+        ],
+        "zones": [
+          32,
+          716,
+          338,
+          32
+        ],
+        "choose": [
+          32,
+          761,
+          262,
+          53
+        ],
+        "compare": [
+          308,
+          761,
+          62,
+          54
+        ]
+      },
+      "additionalBounds": {}
+    },
+    {
+      "name": "04-screening-view",
+      "state": "screeningPreview",
+      "panelBounds": [
+        16,
+        625,
+        370,
+        206
+      ],
+      "texts": [
+        "7排8座",
+        "3D 影厅结构",
+        "¥68",
+        "中区 · 靠近银幕中轴",
+        "前排",
+        "中区",
+        "后排",
+        "侧边",
+        "选这个位置"
+      ],
+      "controlBounds": {
+        "structure": [
+          232,
+          648,
+          92,
+          30
+        ],
+        "zones": [
+          32,
+          716,
+          338,
+          32
+        ],
+        "choose": [
+          32,
+          761,
+          262,
+          53
+        ],
+        "compare": [
+          308,
+          761,
+          62,
+          54
+        ]
+      },
+      "additionalBounds": {}
+    },
+    {
+      "name": "05-two-selected",
+      "state": "doubleSelection",
+      "panelBounds": [
+        16,
+        588,
+        370,
+        243
+      ],
+      "texts": [
+        "星际穿越 · 19:30 · IMAX 2D",
+        "G08 + G09",
+        "¥136",
+        "7排8座、7排9座",
+        "确认这两个座位",
+        "查看座位视角",
+        "清空"
+      ],
+      "controlBounds": {
+        "confirm": [
+          32,
+          695,
+          338,
+          54
+        ],
+        "preview": [
+          32,
+          763,
+          262,
+          54
+        ],
+        "clear": [
+          306,
+          763,
+          64,
+          54
+        ]
+      },
+      "additionalBounds": {
+        "legend": [
+          121,
+          561,
+          160,
+          15
+        ]
+      }
+    },
+    {
+      "name": "06-confirmation",
+      "state": "confirmationSheet",
+      "panelBounds": [
+        8,
+        306,
+        386,
+        560
+      ],
+      "texts": [
+        "确认这两个座位",
+        "星际穿越",
+        "今天 19:30 · 3号 IMAX 厅 · IMAX 2D",
+        "7排8座",
+        "标准座 · ¥68",
+        "7排9座",
+        "标准座 · ¥68",
+        "2 张电影票",
+        "¥136",
+        "保留后，请在 5 分钟内完成支付",
+        "保留座位"
+      ],
+      "controlBounds": {
+        "close": [
+          335,
+          320,
+          44,
+          44
+        ],
+        "reserve": [
+          31,
+          759,
+          340,
+          51
+        ]
+      },
+      "additionalBounds": {
+        "title": [
+          31,
+          400,
+          340,
+          26
+        ],
+        "movie": [
+          31,
+          441,
+          340,
+          20
+        ],
+        "session": [
+          31,
+          467,
+          340,
+          18
+        ],
+        "seatRows": [
+          31,
+          499,
+          340,
+          100
+        ],
+        "total": [
+          31,
+          626,
+          340,
+          25
+        ],
+        "paymentHint": [
+          31,
+          668,
+          340,
+          14
+        ],
+        "dragIndicator": [
+          184,
+          310,
+          34,
+          5
+        ],
+        "presentationDetent": 550
+      }
+    },
+    {
+      "name": "07-reserved",
+      "state": "reservedSheet",
+      "panelBounds": [
+        8,
+        306,
+        386,
+        560
+      ],
+      "texts": [
+        "已保留 2 个座位",
+        "7排8座 · 7排9座",
+        "座位保留 04:58",
+        "继续支付 · ¥136",
+        "查看已选座位"
+      ],
+      "controlBounds": {
+        "close": [
+          335,
+          320,
+          44,
+          44
+        ],
+        "payment": [
+          31,
+          685,
+          340,
+          51
+        ],
+        "viewSelected": [
+          31,
+          758,
+          340,
+          54
+        ]
+      },
+      "additionalBounds": {
+        "successSymbol": [
+          170,
+          420,
+          62,
+          62
+        ],
+        "heading": [
+          31,
+          505,
+          340,
+          26
+        ],
+        "seatSummary": [
+          31,
+          551,
+          340,
+          20
+        ],
+        "countdown": [
+          31,
+          590,
+          340,
+          20
+        ],
+        "dragIndicator": [
+          184,
+          310,
+          34,
+          5
+        ]
+      }
+    }
+  ]
+}

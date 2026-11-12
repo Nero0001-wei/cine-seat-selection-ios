@@ -1,0 +1,138 @@
+<svg width="402" height="874" viewBox="0 0 402 874" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="01 &#194;&#183; &#229;&#189;&#177;&#229;&#142;&#133;&#230;&#128;&#187;&#232;&#167;&#136;">
+<g clip-path="url(#clip0_7_184)">
+<rect width="402" height="874" rx="40" fill="#1B1C21"/>
+<rect id="Scene &#194;&#183; RealityKit render only" width="402" height="874" fill="url(#pattern0_7_184)"/>
+<rect id="Top scrim" width="402" height="100" fill="url(#paint0_linear_7_184)"/>
+<rect id="Bottom scrim" y="654" width="402" height="220" fill="url(#paint1_linear_7_184)"/>
+<g id="Back" clip-path="url(#clip1_7_184)">
+<g id="iOS 26 / native glass">
+<g id="BG">
+<g id="Fill + Shadow" filter="url(#filter0_d_7_184)">
+<path d="M16 84C16 71.8497 25.8497 62 38 62C50.1503 62 60 71.8497 60 84C60 96.1503 50.1503 106 38 106C25.8497 106 16 96.1503 16 84Z" fill="#25262D" fill-opacity="0.5" shape-rendering="crispEdges"/>
+</g>
+<g id="Glass Effect">
+</g>
+</g>
+</g>
+<text id="SF Symbol" fill="white" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="18" letter-spacing="-0.43px"><tspan x="31.4609" y="90.3984">&#x100189;</tspan></text>
+</g>
+<g id="Options" clip-path="url(#clip2_7_184)">
+<g id="iOS 26 / native glass_2">
+<g id="BG_2">
+<g id="Fill + Shadow_2" filter="url(#filter2_d_7_184)">
+<path d="M342 84C342 71.8497 351.85 62 364 62C376.15 62 386 71.8497 386 84C386 96.1503 376.15 106 364 106C351.85 106 342 96.1503 342 84Z" fill="#25262D" fill-opacity="0.5" shape-rendering="crispEdges"/>
+</g>
+<g id="Glass Effect_2">
+</g>
+</g>
+</g>
+<text id="SF Symbol_2" fill="white" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="18" letter-spacing="-0.43px"><tspan x="354.227" y="90.3984">&#x100360;</tspan></text>
+</g>
+<g id="BottomDock">
+<path d="M46 658.25H356C372.43 658.25 385.75 671.57 385.75 688V801C385.75 817.43 372.43 830.75 356 830.75H46C29.5695 830.75 16.25 817.43 16.25 801V688C16.25 671.57 29.5695 658.25 46 658.25Z" fill="black"/>
+<path d="M46 658.25H356C372.43 658.25 385.75 671.57 385.75 688V801C385.75 817.43 372.43 830.75 356 830.75H46C29.5695 830.75 16.25 817.43 16.25 801V688C16.25 671.57 29.5695 658.25 46 658.25Z" stroke="black" stroke-width="0.5"/>
+<text id="Film metadata" fill="white" fill-opacity="0.72" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="12" letter-spacing="0px"><tspan x="32.5" y="686.766">&#x661f;&#x9645;&#x7a7f;&#x8d8a; &#xb7; 19:30 &#xb7; IMAX 2D</tspan></text>
+<text id="Invitation" fill="white" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="22" font-weight="bold" letter-spacing="-0.26px"><tspan x="32.5" y="719.987">&#x5148;&#x5750;&#x8fdb;&#x53bb;&#x770b;&#x770b;</tspan></text>
+<text id="Invitation description" fill="white" fill-opacity="0.8" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="15" letter-spacing="0em"><tspan x="32.5" y="748.165">&#x9009;&#x4e00;&#x4e2a;&#x5ea7;&#x4f4d;&#xff0c;&#x9884;&#x89c8;&#x4f60;&#x7684;&#x89c2;&#x5f71;&#x89c6;&#x89d2;</tspan></text>
+<g id="Recommend">
+<g id="iOS 26 / glassProminent">
+<g id="BG_3">
+<g id="Tint + Shadow">
+<path d="M32.5 787.5C32.5 779.113 32.5 774.92 33.8702 771.612C35.6971 767.201 39.2012 763.697 43.6117 761.87C46.9196 760.5 51.1131 760.5 59.5 760.5H343.5C351.887 760.5 356.08 760.5 359.388 761.87C363.799 763.697 367.303 767.201 369.13 771.612C370.5 774.92 370.5 779.113 370.5 787.5C370.5 795.887 370.5 800.08 369.13 803.388C367.303 807.799 363.799 811.303 359.388 813.13C356.08 814.5 351.887 814.5 343.5 814.5H59.5C51.1131 814.5 46.9196 814.5 43.6117 813.13C39.2012 811.303 35.6971 807.799 33.8702 803.388C32.5 800.08 32.5 795.887 32.5 787.5Z" fill="#F4C85A"/>
+</g>
+<g id="Glass Effect_3">
+</g>
+</g>
+</g>
+<text id="Label" fill="black" fill-opacity="0.9" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="16" font-weight="510" letter-spacing="0em"><tspan x="153.5" y="793.188">&#x8bd5;&#x5750;&#x63a8;&#x8350;&#x4f4d;&#x7f6e;</tspan></text>
+</g>
+</g>
+<g id="Seat legend" clip-path="url(#clip3_7_184)">
+<g id="&#229;&#143;&#175;&#233;&#128;&#137;" clip-path="url(#clip4_7_184)">
+<rect id="Rectangle" x="120" y="631" width="9" height="9" rx="3" fill="#AAABB7"/>
+<text id="Legend label" fill="white" fill-opacity="0.55" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="11" letter-spacing="0.06px"><tspan x="135" y="639.41">&#x53ef;&#x9009;</tspan></text>
+</g>
+<g id="&#229;&#183;&#178;&#229;&#148;&#174;" clip-path="url(#clip5_7_184)">
+<rect id="Rectangle_2" x="182" y="631" width="9" height="9" rx="3" fill="#43444C"/>
+<text id="Legend label_2" fill="white" fill-opacity="0.55" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="11" letter-spacing="0.06px"><tspan x="197" y="639.41">&#x5df2;&#x552e;</tspan></text>
+</g>
+<g id="&#229;&#183;&#178;&#233;&#128;&#137;" clip-path="url(#clip6_7_184)">
+<rect id="Rectangle_3" x="244" y="631" width="9" height="9" rx="3" fill="#FFC800"/>
+<text id="Legend label_3" fill="white" fill-opacity="0.55" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="11" letter-spacing="0.06px"><tspan x="259" y="639.41">&#x5df2;&#x9009;</tspan></text>
+</g>
+</g>
+<text id="Selection hint" fill="white" fill-opacity="0.5" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="11" letter-spacing="0.06px"><tspan x="113.5" y="610.41">&#x70b9;&#x51fb;&#x5ea7;&#x4f4d;&#x9009;&#x62e9; &#xb7; &#x62d6;&#x52a8;&#x5e73;&#x79fb; &#xb7; &#x53cc;&#x6307;&#x7f29;&#x653e;</tspan></text>
+<rect id="Seat G08 &#194;&#183; tap target" x="199" y="362" width="23" height="25" fill="white" fill-opacity="0.01"/>
+<g id="iOS / Status bar">
+<g id="Time">
+<text id="Time_2" fill="white" style="white-space: pre" xml:space="preserve" font-family="SF Pro" font-size="17" font-weight="590" letter-spacing="0px"><tspan x="55.7715" y="38.793">9:41</tspan></text>
+</g>
+<g id="Levels">
+<path id="Cellular Connection" fill-rule="evenodd" clip-rule="evenodd" d="M307.865 27.533C307.865 26.9 307.387 26.3868 306.798 26.3868H305.732C305.143 26.3868 304.665 26.9 304.665 27.533V37.467C304.665 38.1 305.143 38.6132 305.732 38.6132H306.798C307.387 38.6132 307.865 38.1 307.865 37.467V27.533ZM300.431 28.8321H301.498C302.087 28.8321 302.564 29.3576 302.564 30.0058V37.4395C302.564 38.0877 302.087 38.6132 301.498 38.6132H300.431C299.842 38.6132 299.364 38.0877 299.364 37.4395V30.0058C299.364 29.3576 299.842 28.8321 300.431 28.8321ZM296.099 31.4811H295.032C294.443 31.4811 293.966 32.0133 293.966 32.6698V37.4245C293.966 38.081 294.443 38.6132 295.032 38.6132H296.099C296.688 38.6132 297.166 38.081 297.166 37.4245V32.6698C297.166 32.0133 296.688 31.4811 296.099 31.4811ZM290.798 33.9264H289.732C289.143 33.9264 288.665 34.451 288.665 35.0981V37.4415C288.665 38.0886 289.143 38.6132 289.732 38.6132H290.798C291.387 38.6132 291.865 38.0886 291.865 37.4415V35.0981C291.865 34.451 291.387 33.9264 290.798 33.9264Z" fill="white"/>
+<path id="Wifi" fill-rule="evenodd" clip-rule="evenodd" d="M323.437 28.8021C325.924 28.8022 328.316 29.7243 330.118 31.3778C330.254 31.5054 330.471 31.5038 330.605 31.3742L331.902 30.1107C331.97 30.045 332.007 29.9559 332.007 29.8632C332.006 29.7705 331.968 29.6819 331.899 29.6169C327.168 25.2422 319.704 25.2422 314.973 29.6169C314.905 29.6818 314.866 29.7704 314.865 29.8631C314.865 29.9558 314.902 30.0449 314.97 30.1107L316.268 31.3742C316.401 31.504 316.619 31.5056 316.754 31.3778C318.557 29.7242 320.949 28.8021 323.437 28.8021ZM323.433 33.0224C324.791 33.0223 326.099 33.5341 327.106 34.4582C327.242 34.5893 327.456 34.5865 327.589 34.4518L328.876 33.1325C328.944 33.0633 328.981 32.9694 328.98 32.8718C328.979 32.7743 328.94 32.6812 328.871 32.6134C325.807 29.7226 321.062 29.7226 317.998 32.6134C317.929 32.6812 317.89 32.7743 317.889 32.8719C317.888 32.9695 317.926 33.0634 317.993 33.1325L319.28 34.4518C319.413 34.5865 319.627 34.5893 319.763 34.4582C320.769 33.5347 322.077 33.023 323.433 33.0224ZM325.958 35.816C325.96 35.9213 325.922 36.0229 325.855 36.0967L323.679 38.5514C323.615 38.6236 323.528 38.6642 323.437 38.6642C323.346 38.6642 323.259 38.6236 323.195 38.5514L321.018 36.0967C320.951 36.0228 320.914 35.9212 320.916 35.8159C320.918 35.7105 320.959 35.6108 321.029 35.5401C322.419 34.2262 324.455 34.2262 325.845 35.5401C325.915 35.6108 325.956 35.7106 325.958 35.816Z" fill="white"/>
+<g id="Frame">
+<rect id="Border" opacity="0.35" x="339.507" y="26.5" width="24" height="12" rx="3.8" stroke="white"/>
+<path id="Cap" opacity="0.4" d="M365.007 30.5V34.5755C365.812 34.2303 366.335 33.4273 366.335 32.5377C366.335 31.6481 365.812 30.8452 365.007 30.5Z" fill="white"/>
+<rect id="Capacity" x="341.007" y="28" width="21" height="9" rx="2.5" fill="#34C759"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<pattern id="pattern0_7_184" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_7_184" transform="scale(0.000829187 0.000381388)"/>
+</pattern>
+<filter id="filter0_d_7_184" x="-24" y="30" width="124" height="124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_184"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_184" result="shape"/>
+</filter>
+<filter id="filter2_d_7_184" x="302" y="30" width="124" height="124" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="20"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_7_184"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_7_184" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_7_184" x1="201" y1="0" x2="201" y2="100" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.38"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_7_184" x1="201" y1="654" x2="201" y2="874" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-opacity="0.12"/>
+</linearGradient>
+<clipPath id="clip0_7_184">
+<rect width="402" height="874" rx="40" fill="white"/>
+</clipPath>
+<clipPath id="clip1_7_184">
+<rect width="44" height="44" fill="white" transform="translate(16 62)"/>
+</clipPath>
+<clipPath id="clip2_7_184">
+<rect width="44" height="44" fill="white" transform="translate(342 62)"/>
+</clipPath>
+<clipPath id="clip3_7_184">
+<rect width="162" height="13" fill="white" transform="translate(120 629)"/>
+</clipPath>
+<clipPath id="clip4_7_184">
+<rect width="38" height="13" fill="white" transform="translate(120 629)"/>
+</clipPath>
+<clipPath id="clip5_7_184">
+<rect width="38" height="13" fill="white" transform="translate(182 629)"/>
+</clipPath>
+<clipPath id="clip6_7_184">
+<rect width="38" height="13" fill="white" transform="translate(244 629)"/>
+</clipPath>
+
+</defs>
+</svg>

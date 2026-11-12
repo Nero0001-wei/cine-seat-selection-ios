@@ -1,0 +1,436 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="393" height="440" viewBox="0 0 393 440">
+<defs>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#E7E8E2" /><stop offset="1" stop-color="#F5F5EF" /></linearGradient>
+  <linearGradient id="wallL" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF" /><stop offset=".5" stop-color="#F7F7F1" /><stop offset="1" stop-color="#D9DAD4" /></linearGradient>
+  <linearGradient id="wallR" x1="1" y1="0" x2="0" y2="0"><stop stop-color="#FFFFFF" /><stop offset=".5" stop-color="#F7F7F1" /><stop offset="1" stop-color="#D9DAD4" /></linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF" /><stop offset=".55" stop-color="#FCFCF8" /><stop offset="1" stop-color="#D5D8D1" /></linearGradient>
+  <linearGradient id="back-available" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF" /><stop offset=".48" stop-color="#FDFDF9" /><stop offset="1" stop-color="#E2E3DC" /></linearGradient>
+  <linearGradient id="cushion-available" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FAFAF6" /><stop offset=".55" stop-color="#F3F4ED" /><stop offset="1" stop-color="#DADCD3" /></linearGradient>
+  <linearGradient id="back-sold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#D6D8D1" /><stop offset=".55" stop-color="#CFD2C9" /><stop offset="1" stop-color="#B8BEB1" /></linearGradient>
+  <linearGradient id="cushion-sold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#CED1C8" /><stop offset="1" stop-color="#B6BDAF" /></linearGradient>
+  <linearGradient id="back-selected" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FF8A42" /><stop offset=".48" stop-color="#FF752C" /><stop offset="1" stop-color="#EC5716" /></linearGradient>
+  <linearGradient id="cushion-selected" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FF762C" /><stop offset="1" stop-color="#E45214" /></linearGradient>
+  <linearGradient id="steps" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#F9F9F3" /><stop offset="1" stop-color="#DDDFD5" /></linearGradient>
+<g id="seat-shape-sold">
+  <path d="M1.7 4.8Q1.7 2.7 4 2.7H14Q16.3 2.7 16.3 4.8V17.7Q16.3 20.1 13.6 20.1H4.3Q1.7 20.1 1.7 17.7Z" fill="#8D9585" opacity=".16" />
+  <path d="M1.6 6.9H15.8V16.1Q15.8 18.8 13.1 18.8H4.3Q1.6 18.8 1.6 16.1Z" fill="#AFB7A5" />
+  <path d="M2.6 7.5H14.8V15.5Q14.8 17.7 12.6 17.7H4.8Q2.6 17.7 2.6 15.5Z" fill="url(#cushion-sold)" />
+  <path d="M2.2 1.5Q2.2 0 4 0H13.4Q15.2 0 15.2 1.5V7.7Q15.2 9.7 13.2 9.7H4.2Q2.2 9.7 2.2 7.7Z" fill="url(#back-sold)" />
+  <path d="M4.3 .65H13.1Q14.35 .65 14.35 1.8V2.3H3.05V1.8Q3.05 .65 4.3 .65Z" fill="#FFFFFF" opacity=".52" />
+  <path d="M.6 6.2Q.6 5.4 1.5 5.4H2Q2.9 5.4 2.9 6.2V14.6Q2.9 15.5 2 15.5H1.5Q.6 15.5 .6 14.6Z" fill="#C8CCC0" />
+  <path d="M14.5 6.2Q14.5 5.4 15.4 5.4H15.9Q16.8 5.4 16.8 6.2V14.6Q16.8 15.5 15.9 15.5H15.4Q14.5 15.5 14.5 14.6Z" fill="#C8CCC0" />
+</g>
+<g id="seat-shape-available">
+  <path d="M1.7 4.8Q1.7 2.7 4 2.7H14Q16.3 2.7 16.3 4.8V17.7Q16.3 20.1 13.6 20.1H4.3Q1.7 20.1 1.7 17.7Z" fill="#8D9585" opacity=".16" />
+  <path d="M1.6 6.9H15.8V16.1Q15.8 18.8 13.1 18.8H4.3Q1.6 18.8 1.6 16.1Z" fill="#D7DAD0" />
+  <path d="M2.6 7.5H14.8V15.5Q14.8 17.7 12.6 17.7H4.8Q2.6 17.7 2.6 15.5Z" fill="url(#cushion-available)" />
+  <path d="M2.2 1.5Q2.2 0 4 0H13.4Q15.2 0 15.2 1.5V7.7Q15.2 9.7 13.2 9.7H4.2Q2.2 9.7 2.2 7.7Z" fill="url(#back-available)" />
+  <path d="M4.3 .65H13.1Q14.35 .65 14.35 1.8V2.3H3.05V1.8Q3.05 .65 4.3 .65Z" fill="#FFFFFF" opacity=".52" />
+  <path d="M.6 6.2Q.6 5.4 1.5 5.4H2Q2.9 5.4 2.9 6.2V14.6Q2.9 15.5 2 15.5H1.5Q.6 15.5 .6 14.6Z" fill="#F7F7F0" />
+  <path d="M14.5 6.2Q14.5 5.4 15.4 5.4H15.9Q16.8 5.4 16.8 6.2V14.6Q16.8 15.5 15.9 15.5H15.4Q14.5 15.5 14.5 14.6Z" fill="#F7F7F0" />
+</g>
+<g id="seat-shape-selected">
+  <path d="M1.7 4.8Q1.7 2.7 4 2.7H14Q16.3 2.7 16.3 4.8V17.7Q16.3 20.1 13.6 20.1H4.3Q1.7 20.1 1.7 17.7Z" fill="#8D9585" opacity=".16" />
+  <path d="M1.6 6.9H15.8V16.1Q15.8 18.8 13.1 18.8H4.3Q1.6 18.8 1.6 16.1Z" fill="#D94C0C" />
+  <path d="M2.6 7.5H14.8V15.5Q14.8 17.7 12.6 17.7H4.8Q2.6 17.7 2.6 15.5Z" fill="url(#cushion-selected)" />
+  <path d="M2.2 1.5Q2.2 0 4 0H13.4Q15.2 0 15.2 1.5V7.7Q15.2 9.7 13.2 9.7H4.2Q2.2 9.7 2.2 7.7Z" fill="url(#back-selected)" />
+  <path d="M4.3 .65H13.1Q14.35 .65 14.35 1.8V2.3H3.05V1.8Q3.05 .65 4.3 .65Z" fill="#FFFFFF" opacity=".30" />
+  <path d="M.6 6.2Q.6 5.4 1.5 5.4H2Q2.9 5.4 2.9 6.2V14.6Q2.9 15.5 2 15.5H1.5Q.6 15.5 .6 14.6Z" fill="#FF7A30" />
+  <path d="M14.5 6.2Q14.5 5.4 15.4 5.4H15.9Q16.8 5.4 16.8 6.2V14.6Q16.8 15.5 15.9 15.5H15.4Q14.5 15.5 14.5 14.6Z" fill="#FF7A30" />
+</g>
+</defs>
+<rect id="warm-grey-ground" width="393" height="440" fill="#EEEDE8" />
+<g id="auditorium-shell">
+  <path id="shell-shadow" d="M34 58Q34 45 48 45H345Q359 45 359 58V384Q359 403 340 407H53Q34 403 34 384Z" fill="#B6BCAF" opacity=".18" />
+  <path id="floor-platform" d="M35 54Q35 44 47 44H346Q358 44 358 54V379Q358 393 344 393H49Q35 393 35 379Z" fill="url(#floor)" />
+  <path id="screen-shadow" d="M63 40Q196.5 22 330 40V46Q196.5 31 63 46Z" fill="#CFD4C8" opacity=".5" />
+  <path id="cinema-screen" d="M63 31Q196.5 10 330 31V40Q196.5 22 63 40Z" fill="url(#screen)" />
+  <path id="screen-light-edge" d="M64 31Q196.5 11 329 31" fill="none" stroke="#FFFFFF" stroke-width="1.8" />
+  <path id="stage-top" d="M78 53Q196.5 40 315 53L307 59Q196.5 49 86 59Z" fill="#E0E3D9" />
+  <path id="stage-front" d="M86 59Q196.5 49 307 59V62Q196.5 52 86 62Z" fill="#D6DBCD" />
+  <path id="wall-left" d="M24 61Q24 51 34 51H38V382H34Q24 382 24 372Z" fill="url(#wallL)" />
+  <path id="wall-right" d="M369 61Q369 51 359 51H355V382H359Q369 382 369 372Z" fill="url(#wallR)" />
+  <path id="wall-left-cap" d="M25 60Q25 52 34 52H37V56H34Q29 56 29 61V372H25Z" fill="#FFFFFF" opacity=".8" />
+  <path id="wall-right-cap" d="M368 60Q368 52 359 52H356V56H359Q364 56 364 61V372H368Z" fill="#FFFFFF" opacity=".8" />
+</g>
+<path id="riser-A" d="M42 101.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-B" d="M42 126.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-C" d="M42 151.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-D" d="M42 176.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-E" d="M42 201.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-F" d="M42 226.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-G" d="M42 251.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-H" d="M42 276.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-I" d="M42 301.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-J" d="M42 326.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-K" d="M42 351.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<path id="riser-L" d="M42 376.00H351" stroke="#D2D8C9" stroke-width=".7" opacity=".48" />
+<g id="seating-grid">
+<g id="row-A">
+<g id="seat-A01" transform="translate(43.70 79.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-A02" transform="translate(64.10 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A03" transform="translate(84.50 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A04" transform="translate(104.90 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A05" transform="translate(136.80 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A06" transform="translate(157.20 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A07" transform="translate(177.60 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A08" transform="translate(198.00 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A09" transform="translate(218.40 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A10" transform="translate(238.80 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A11" transform="translate(270.70 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-A12" transform="translate(291.10 79.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-A13" transform="translate(311.50 79.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-A14" transform="translate(331.90 79.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-B">
+<g id="seat-B01" transform="translate(43.70 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B02" transform="translate(64.10 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B03" transform="translate(84.50 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B04" transform="translate(104.90 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B05" transform="translate(136.80 104.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-B06" transform="translate(157.20 104.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-B07" transform="translate(177.60 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B08" transform="translate(198.00 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B09" transform="translate(218.40 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B10" transform="translate(238.80 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-B11" transform="translate(270.70 104.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-B12" transform="translate(291.10 104.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-B13" transform="translate(311.50 104.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-B14" transform="translate(331.90 104.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-C">
+<g id="seat-C01" transform="translate(43.70 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C02" transform="translate(64.10 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C03" transform="translate(84.50 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C04" transform="translate(104.90 129.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-C05" transform="translate(136.80 129.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-C06" transform="translate(157.20 129.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-C07" transform="translate(177.60 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C08" transform="translate(198.00 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C09" transform="translate(218.40 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C10" transform="translate(238.80 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C11" transform="translate(270.70 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C12" transform="translate(291.10 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C13" transform="translate(311.50 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-C14" transform="translate(331.90 129.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-D">
+<g id="seat-D01" transform="translate(43.70 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D02" transform="translate(64.10 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D03" transform="translate(84.50 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D04" transform="translate(104.90 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D05" transform="translate(136.80 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D06" transform="translate(157.20 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D07" transform="translate(177.60 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D08" transform="translate(198.00 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D09" transform="translate(218.40 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D10" transform="translate(238.80 154.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-D11" transform="translate(270.70 154.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-D12" transform="translate(291.10 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D13" transform="translate(311.50 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-D14" transform="translate(331.90 154.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-E">
+<g id="seat-E01" transform="translate(43.70 179.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-E02" transform="translate(64.10 179.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-E03" transform="translate(84.50 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E04" transform="translate(104.90 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E05" transform="translate(136.80 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E06" transform="translate(157.20 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E07" transform="translate(177.60 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E08" transform="translate(198.00 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E09" transform="translate(218.40 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E10" transform="translate(238.80 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E11" transform="translate(270.70 179.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-E12" transform="translate(291.10 179.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-E13" transform="translate(311.50 179.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-E14" transform="translate(331.90 179.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-F">
+<g id="seat-F01" transform="translate(43.70 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F02" transform="translate(64.10 204.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-F03" transform="translate(84.50 204.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-F04" transform="translate(104.90 204.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-F05" transform="translate(136.80 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F06" transform="translate(157.20 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F07" transform="translate(177.60 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F08" transform="translate(198.00 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F09" transform="translate(218.40 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F10" transform="translate(238.80 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F11" transform="translate(270.70 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F12" transform="translate(291.10 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F13" transform="translate(311.50 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-F14" transform="translate(331.90 204.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-G">
+<g id="seat-G01" transform="translate(43.70 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G02" transform="translate(64.10 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G03" transform="translate(84.50 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G04" transform="translate(104.90 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G05" transform="translate(136.80 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G06" transform="translate(157.20 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G07" transform="translate(177.60 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G08" transform="translate(198.00 229.00)">
+  <use xlink:href="#seat-shape-selected" /></g>
+<g id="seat-G09" transform="translate(218.40 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G10" transform="translate(238.80 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G11" transform="translate(270.70 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G12" transform="translate(291.10 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G13" transform="translate(311.50 229.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-G14" transform="translate(331.90 229.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+</g>
+<g id="row-H">
+<g id="seat-H01" transform="translate(43.70 254.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-H02" transform="translate(64.10 254.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-H03" transform="translate(84.50 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H04" transform="translate(104.90 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H05" transform="translate(136.80 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H06" transform="translate(157.20 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H07" transform="translate(177.60 254.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-H08" transform="translate(198.00 254.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-H09" transform="translate(218.40 254.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-H10" transform="translate(238.80 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H11" transform="translate(270.70 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H12" transform="translate(291.10 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H13" transform="translate(311.50 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-H14" transform="translate(331.90 254.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-I">
+<g id="seat-I01" transform="translate(43.70 279.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-I02" transform="translate(64.10 279.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-I03" transform="translate(84.50 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I04" transform="translate(104.90 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I05" transform="translate(136.80 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I06" transform="translate(157.20 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I07" transform="translate(177.60 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I08" transform="translate(198.00 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I09" transform="translate(218.40 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I10" transform="translate(238.80 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I11" transform="translate(270.70 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I12" transform="translate(291.10 279.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-I13" transform="translate(311.50 279.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-I14" transform="translate(331.90 279.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+</g>
+<g id="row-J">
+<g id="seat-J01" transform="translate(43.70 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J02" transform="translate(64.10 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J03" transform="translate(84.50 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J04" transform="translate(104.90 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J05" transform="translate(136.80 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J06" transform="translate(157.20 304.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-J07" transform="translate(177.60 304.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-J08" transform="translate(198.00 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J09" transform="translate(218.40 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J10" transform="translate(238.80 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J11" transform="translate(270.70 304.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-J12" transform="translate(291.10 304.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-J13" transform="translate(311.50 304.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-J14" transform="translate(331.90 304.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+</g>
+<g id="row-K">
+<g id="seat-K01" transform="translate(43.70 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K02" transform="translate(64.10 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K03" transform="translate(84.50 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K04" transform="translate(104.90 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K05" transform="translate(136.80 329.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-K06" transform="translate(157.20 329.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-K07" transform="translate(177.60 329.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-K08" transform="translate(198.00 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K09" transform="translate(218.40 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K10" transform="translate(238.80 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K11" transform="translate(270.70 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K12" transform="translate(291.10 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K13" transform="translate(311.50 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-K14" transform="translate(331.90 329.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+<g id="row-L">
+<g id="seat-L01" transform="translate(43.70 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L02" transform="translate(64.10 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L03" transform="translate(84.50 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L04" transform="translate(104.90 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L05" transform="translate(136.80 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L06" transform="translate(157.20 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L07" transform="translate(177.60 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L08" transform="translate(198.00 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L09" transform="translate(218.40 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L10" transform="translate(238.80 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L11" transform="translate(270.70 354.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-L12" transform="translate(291.10 354.00)">
+  <use xlink:href="#seat-shape-sold" /></g>
+<g id="seat-L13" transform="translate(311.50 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+<g id="seat-L14" transform="translate(331.90 354.00)">
+  <use xlink:href="#seat-shape-available" /></g>
+</g>
+</g>
+<g id="entrance-steps">
+  <path id="rear-landing" d="M42 385H351V394Q351 401 343 401H50Q42 401 42 394Z" fill="url(#steps)" />
+  <path id="entry-step-1" d="M151 401H242V407H151Z" fill="#D8DDCF" />
+  <path id="entry-step-2" d="M144 407H249V413H144Z" fill="#E6E9DE" />
+  <path id="entry-step-3" d="M138 413H255V419H138Z" fill="#F6F6EF" />
+  <path id="entry-highlight" d="M138 413H255" stroke="#FFFFFF" stroke-width="1.4" />
+</g></svg>

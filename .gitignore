@@ -1,0 +1,12 @@
+.DS_Store
+**/.build/
+**/DerivedData/
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcresult/
+**/*.log
+*.ipa
+*.app/
+*.dSYM/
+iOSDemo/CinemaDemo/Media/cinema-trailer.*
+iOSDemo/CinemaDemo/Assets.xcassets/CinemaReference.imageset/

@@ -1,0 +1,3216 @@
+{
+  "width": 393,
+  "height": 440,
+  "rows": 12,
+  "columns": 14,
+  "background": "#EEEDE8",
+  "aislesAfterColumns": [
+    4,
+    10
+  ],
+  "seatCount": 168,
+  "selectedByVariant": {
+    "default": [],
+    "single": [
+      "G08"
+    ],
+    "pair": [
+      "G08",
+      "G09"
+    ]
+  },
+  "seats": [
+    {
+      "id": "seat-A01",
+      "seatId": "A01",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 1,
+      "x": 43.7,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 88.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-A02",
+      "seatId": "A02",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 2,
+      "x": 64.1,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A03",
+      "seatId": "A03",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 3,
+      "x": 84.5,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A04",
+      "seatId": "A04",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 4,
+      "x": 104.9,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A05",
+      "seatId": "A05",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 5,
+      "x": 136.8,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A06",
+      "seatId": "A06",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 6,
+      "x": 157.2,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A07",
+      "seatId": "A07",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 7,
+      "x": 177.6,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A08",
+      "seatId": "A08",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 8,
+      "x": 198.0,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A09",
+      "seatId": "A09",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 9,
+      "x": 218.4,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A10",
+      "seatId": "A10",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 10,
+      "x": 238.8,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A11",
+      "seatId": "A11",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 11,
+      "x": 270.7,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-A12",
+      "seatId": "A12",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 12,
+      "x": 291.1,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 88.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-A13",
+      "seatId": "A13",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 13,
+      "x": 311.5,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 88.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-A14",
+      "seatId": "A14",
+      "row": 1,
+      "rowLetter": "A",
+      "number": 14,
+      "x": 331.9,
+      "y": 79.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 88.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B01",
+      "seatId": "B01",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 1,
+      "x": 43.7,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B02",
+      "seatId": "B02",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 2,
+      "x": 64.1,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B03",
+      "seatId": "B03",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 3,
+      "x": 84.5,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B04",
+      "seatId": "B04",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 4,
+      "x": 104.9,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B05",
+      "seatId": "B05",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 5,
+      "x": 136.8,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 113.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-B06",
+      "seatId": "B06",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 6,
+      "x": 157.2,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 113.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-B07",
+      "seatId": "B07",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 7,
+      "x": 177.6,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B08",
+      "seatId": "B08",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 8,
+      "x": 198.0,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B09",
+      "seatId": "B09",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 9,
+      "x": 218.4,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B10",
+      "seatId": "B10",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 10,
+      "x": 238.8,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-B11",
+      "seatId": "B11",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 11,
+      "x": 270.7,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 113.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-B12",
+      "seatId": "B12",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 12,
+      "x": 291.1,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 113.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-B13",
+      "seatId": "B13",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 13,
+      "x": 311.5,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 113.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-B14",
+      "seatId": "B14",
+      "row": 2,
+      "rowLetter": "B",
+      "number": 14,
+      "x": 331.9,
+      "y": 104.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 113.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C01",
+      "seatId": "C01",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 1,
+      "x": 43.7,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C02",
+      "seatId": "C02",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 2,
+      "x": 64.1,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C03",
+      "seatId": "C03",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 3,
+      "x": 84.5,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C04",
+      "seatId": "C04",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 4,
+      "x": 104.9,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 138.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-C05",
+      "seatId": "C05",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 5,
+      "x": 136.8,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 138.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-C06",
+      "seatId": "C06",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 6,
+      "x": 157.2,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 138.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-C07",
+      "seatId": "C07",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 7,
+      "x": 177.6,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C08",
+      "seatId": "C08",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 8,
+      "x": 198.0,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C09",
+      "seatId": "C09",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 9,
+      "x": 218.4,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C10",
+      "seatId": "C10",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 10,
+      "x": 238.8,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C11",
+      "seatId": "C11",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 11,
+      "x": 270.7,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C12",
+      "seatId": "C12",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 12,
+      "x": 291.1,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C13",
+      "seatId": "C13",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 13,
+      "x": 311.5,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-C14",
+      "seatId": "C14",
+      "row": 3,
+      "rowLetter": "C",
+      "number": 14,
+      "x": 331.9,
+      "y": 129.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 138.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D01",
+      "seatId": "D01",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 1,
+      "x": 43.7,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D02",
+      "seatId": "D02",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 2,
+      "x": 64.1,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D03",
+      "seatId": "D03",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 3,
+      "x": 84.5,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D04",
+      "seatId": "D04",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 4,
+      "x": 104.9,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D05",
+      "seatId": "D05",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 5,
+      "x": 136.8,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D06",
+      "seatId": "D06",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 6,
+      "x": 157.2,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D07",
+      "seatId": "D07",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 7,
+      "x": 177.6,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D08",
+      "seatId": "D08",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 8,
+      "x": 198.0,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D09",
+      "seatId": "D09",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 9,
+      "x": 218.4,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D10",
+      "seatId": "D10",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 10,
+      "x": 238.8,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 163.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-D11",
+      "seatId": "D11",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 11,
+      "x": 270.7,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 163.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-D12",
+      "seatId": "D12",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 12,
+      "x": 291.1,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D13",
+      "seatId": "D13",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 13,
+      "x": 311.5,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-D14",
+      "seatId": "D14",
+      "row": 4,
+      "rowLetter": "D",
+      "number": 14,
+      "x": 331.9,
+      "y": 154.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 163.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-E01",
+      "seatId": "E01",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 1,
+      "x": 43.7,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 188.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-E02",
+      "seatId": "E02",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 2,
+      "x": 64.1,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 188.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-E03",
+      "seatId": "E03",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 3,
+      "x": 84.5,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E04",
+      "seatId": "E04",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 4,
+      "x": 104.9,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E05",
+      "seatId": "E05",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 5,
+      "x": 136.8,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E06",
+      "seatId": "E06",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 6,
+      "x": 157.2,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E07",
+      "seatId": "E07",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 7,
+      "x": 177.6,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E08",
+      "seatId": "E08",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 8,
+      "x": 198.0,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E09",
+      "seatId": "E09",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 9,
+      "x": 218.4,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E10",
+      "seatId": "E10",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 10,
+      "x": 238.8,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E11",
+      "seatId": "E11",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 11,
+      "x": 270.7,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 188.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-E12",
+      "seatId": "E12",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 12,
+      "x": 291.1,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 188.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-E13",
+      "seatId": "E13",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 13,
+      "x": 311.5,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 188.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-E14",
+      "seatId": "E14",
+      "row": 5,
+      "rowLetter": "E",
+      "number": 14,
+      "x": 331.9,
+      "y": 179.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 188.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F01",
+      "seatId": "F01",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 1,
+      "x": 43.7,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F02",
+      "seatId": "F02",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 2,
+      "x": 64.1,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 213.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-F03",
+      "seatId": "F03",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 3,
+      "x": 84.5,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 213.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-F04",
+      "seatId": "F04",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 4,
+      "x": 104.9,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 213.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-F05",
+      "seatId": "F05",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 5,
+      "x": 136.8,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F06",
+      "seatId": "F06",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 6,
+      "x": 157.2,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F07",
+      "seatId": "F07",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 7,
+      "x": 177.6,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F08",
+      "seatId": "F08",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 8,
+      "x": 198.0,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F09",
+      "seatId": "F09",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 9,
+      "x": 218.4,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F10",
+      "seatId": "F10",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 10,
+      "x": 238.8,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F11",
+      "seatId": "F11",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 11,
+      "x": 270.7,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F12",
+      "seatId": "F12",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 12,
+      "x": 291.1,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F13",
+      "seatId": "F13",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 13,
+      "x": 311.5,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-F14",
+      "seatId": "F14",
+      "row": 6,
+      "rowLetter": "F",
+      "number": 14,
+      "x": 331.9,
+      "y": 204.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 213.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G01",
+      "seatId": "G01",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 1,
+      "x": 43.7,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G02",
+      "seatId": "G02",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 2,
+      "x": 64.1,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G03",
+      "seatId": "G03",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 3,
+      "x": 84.5,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G04",
+      "seatId": "G04",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 4,
+      "x": 104.9,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G05",
+      "seatId": "G05",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 5,
+      "x": 136.8,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G06",
+      "seatId": "G06",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 6,
+      "x": 157.2,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G07",
+      "seatId": "G07",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 7,
+      "x": 177.6,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G08",
+      "seatId": "G08",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 8,
+      "x": 198.0,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "selected",
+        "pair": "selected"
+      }
+    },
+    {
+      "id": "seat-G09",
+      "seatId": "G09",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 9,
+      "x": 218.4,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "selected"
+      }
+    },
+    {
+      "id": "seat-G10",
+      "seatId": "G10",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 10,
+      "x": 238.8,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G11",
+      "seatId": "G11",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 11,
+      "x": 270.7,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G12",
+      "seatId": "G12",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 12,
+      "x": 291.1,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G13",
+      "seatId": "G13",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 13,
+      "x": 311.5,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 238.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-G14",
+      "seatId": "G14",
+      "row": 7,
+      "rowLetter": "G",
+      "number": 14,
+      "x": 331.9,
+      "y": 229.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 238.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H01",
+      "seatId": "H01",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 1,
+      "x": 43.7,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 263.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H02",
+      "seatId": "H02",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 2,
+      "x": 64.1,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 263.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H03",
+      "seatId": "H03",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 3,
+      "x": 84.5,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H04",
+      "seatId": "H04",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 4,
+      "x": 104.9,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H05",
+      "seatId": "H05",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 5,
+      "x": 136.8,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H06",
+      "seatId": "H06",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 6,
+      "x": 157.2,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H07",
+      "seatId": "H07",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 7,
+      "x": 177.6,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 263.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H08",
+      "seatId": "H08",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 8,
+      "x": 198.0,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 263.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H09",
+      "seatId": "H09",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 9,
+      "x": 218.4,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 263.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-H10",
+      "seatId": "H10",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 10,
+      "x": 238.8,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H11",
+      "seatId": "H11",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 11,
+      "x": 270.7,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H12",
+      "seatId": "H12",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 12,
+      "x": 291.1,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H13",
+      "seatId": "H13",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 13,
+      "x": 311.5,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-H14",
+      "seatId": "H14",
+      "row": 8,
+      "rowLetter": "H",
+      "number": 14,
+      "x": 331.9,
+      "y": 254.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 263.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I01",
+      "seatId": "I01",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 1,
+      "x": 43.7,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 288.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-I02",
+      "seatId": "I02",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 2,
+      "x": 64.1,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 288.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-I03",
+      "seatId": "I03",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 3,
+      "x": 84.5,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I04",
+      "seatId": "I04",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 4,
+      "x": 104.9,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I05",
+      "seatId": "I05",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 5,
+      "x": 136.8,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I06",
+      "seatId": "I06",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 6,
+      "x": 157.2,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I07",
+      "seatId": "I07",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 7,
+      "x": 177.6,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I08",
+      "seatId": "I08",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 8,
+      "x": 198.0,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I09",
+      "seatId": "I09",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 9,
+      "x": 218.4,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I10",
+      "seatId": "I10",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 10,
+      "x": 238.8,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I11",
+      "seatId": "I11",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 11,
+      "x": 270.7,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I12",
+      "seatId": "I12",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 12,
+      "x": 291.1,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 288.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-I13",
+      "seatId": "I13",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 13,
+      "x": 311.5,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 288.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-I14",
+      "seatId": "I14",
+      "row": 9,
+      "rowLetter": "I",
+      "number": 14,
+      "x": 331.9,
+      "y": 279.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 288.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-J01",
+      "seatId": "J01",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 1,
+      "x": 43.7,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J02",
+      "seatId": "J02",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 2,
+      "x": 64.1,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J03",
+      "seatId": "J03",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 3,
+      "x": 84.5,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J04",
+      "seatId": "J04",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 4,
+      "x": 104.9,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J05",
+      "seatId": "J05",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 5,
+      "x": 136.8,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J06",
+      "seatId": "J06",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 6,
+      "x": 157.2,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 313.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-J07",
+      "seatId": "J07",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 7,
+      "x": 177.6,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 313.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-J08",
+      "seatId": "J08",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 8,
+      "x": 198.0,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J09",
+      "seatId": "J09",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 9,
+      "x": 218.4,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J10",
+      "seatId": "J10",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 10,
+      "x": 238.8,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J11",
+      "seatId": "J11",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 11,
+      "x": 270.7,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 313.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-J12",
+      "seatId": "J12",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 12,
+      "x": 291.1,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 313.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-J13",
+      "seatId": "J13",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 13,
+      "x": 311.5,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 313.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-J14",
+      "seatId": "J14",
+      "row": 10,
+      "rowLetter": "J",
+      "number": 14,
+      "x": 331.9,
+      "y": 304.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 313.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-K01",
+      "seatId": "K01",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 1,
+      "x": 43.7,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K02",
+      "seatId": "K02",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 2,
+      "x": 64.1,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K03",
+      "seatId": "K03",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 3,
+      "x": 84.5,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K04",
+      "seatId": "K04",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 4,
+      "x": 104.9,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K05",
+      "seatId": "K05",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 5,
+      "x": 136.8,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 338.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-K06",
+      "seatId": "K06",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 6,
+      "x": 157.2,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 338.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-K07",
+      "seatId": "K07",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 7,
+      "x": 177.6,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 338.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-K08",
+      "seatId": "K08",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 8,
+      "x": 198.0,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K09",
+      "seatId": "K09",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 9,
+      "x": 218.4,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K10",
+      "seatId": "K10",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 10,
+      "x": 238.8,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K11",
+      "seatId": "K11",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 11,
+      "x": 270.7,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K12",
+      "seatId": "K12",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 12,
+      "x": 291.1,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K13",
+      "seatId": "K13",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 13,
+      "x": 311.5,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-K14",
+      "seatId": "K14",
+      "row": 11,
+      "rowLetter": "K",
+      "number": 14,
+      "x": 331.9,
+      "y": 329.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 338.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L01",
+      "seatId": "L01",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 1,
+      "x": 43.7,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 52.4,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L02",
+      "seatId": "L02",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 2,
+      "x": 64.1,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 72.8,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L03",
+      "seatId": "L03",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 3,
+      "x": 84.5,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 93.2,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L04",
+      "seatId": "L04",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 4,
+      "x": 104.9,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 113.6,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L05",
+      "seatId": "L05",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 5,
+      "x": 136.8,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 145.5,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L06",
+      "seatId": "L06",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 6,
+      "x": 157.2,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 165.9,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L07",
+      "seatId": "L07",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 7,
+      "x": 177.6,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 186.3,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L08",
+      "seatId": "L08",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 8,
+      "x": 198.0,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 206.7,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L09",
+      "seatId": "L09",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 9,
+      "x": 218.4,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 227.1,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L10",
+      "seatId": "L10",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 10,
+      "x": 238.8,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 247.5,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L11",
+      "seatId": "L11",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 11,
+      "x": 270.7,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 279.4,
+      "centerY": 363.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-L12",
+      "seatId": "L12",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 12,
+      "x": 291.1,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 299.8,
+      "centerY": 363.2,
+      "status": "sold",
+      "states": {
+        "default": "sold",
+        "single": "sold",
+        "pair": "sold"
+      }
+    },
+    {
+      "id": "seat-L13",
+      "seatId": "L13",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 13,
+      "x": 311.5,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 320.2,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    },
+    {
+      "id": "seat-L14",
+      "seatId": "L14",
+      "row": 12,
+      "rowLetter": "L",
+      "number": 14,
+      "x": 331.9,
+      "y": 354.0,
+      "width": 17.4,
+      "height": 18.4,
+      "centerX": 340.6,
+      "centerY": 363.2,
+      "status": "available",
+      "states": {
+        "default": "available",
+        "single": "available",
+        "pair": "available"
+      }
+    }
+  ]
+}

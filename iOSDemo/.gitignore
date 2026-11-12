@@ -1,0 +1,6 @@
+.build/
+*.xcuserstate
+xcuserdata/
+QA/*.xcresult/
+QA/*.log
+.DS_Store
